@@ -3,15 +3,19 @@
 Inicialmente se debe crear el entorno virtual y activarlo para poder dar funcionalidad al código. Esto se realiza en la terminal de la carpeta donde se realice el proyecto.
 
 - Creación del entorno virtual:
+
 *python3.10 -m venv .venv*
 
 - Activación del entorno virtual:
+
 *source .venv/bin/activate*
 
 - Instalación de Flask (si no está instalado):
+
 *pip install flask*
 
 - Ejecución de Flask:
+
 *flask run*
 
 Siempre y cuando el nombre del archivo para la aplicación Flask tenga como nombre*"app.py"*se podrá ejecutar sin ningún inconveniente, de no ser así, habrá que hacer configuraciones para indicar a flask cuál es el archivo donde se encuentra la aplicación.
